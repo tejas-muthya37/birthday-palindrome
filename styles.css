@@ -39,3 +39,22 @@ div {
     margin-top: 50px;
     font-size: large;
 }
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  footer div {
+    display: flex;
+    margin: auto;
+    width: 200px;
+    justify-content: space-evenly;
+  }
+  
+  a {
+    color: black;
+  }
